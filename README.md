@@ -1,4 +1,4 @@
-# [RSS Feed Reader Project](https://blissophist.github.io/feed-reader/)
+# RSS Feed Reader Project
 
 ### Mission
 For this project, we roleplayed as developers who take over the job of testing applications for someone who has left the company. We fortunately had [Jasmine](http://jasmine.github.io/) to help us break code and appropriately fix it.
