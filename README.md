@@ -1,4 +1,4 @@
-# RSS Feed Reader Project
+# [RSS Feed Reader Project](https://blissophist.github.io/feed-reader/)
 
 ### Mission
 For this project, we roleplayed as developers who take over the job of testing applications for someone who has left the company. We fortunately had [Jasmine](http://jasmine.github.io/) to help us break code and appropriately fix it.
@@ -15,4 +15,3 @@ For this project, we roleplayed as developers who take over the job of testing a
 #### A Udacity Project
 
 This project is part of the FrontEnd Development Nanodegree with Udacity. If you are interested in learning how to make programs like this, check them out [here](https://www.udacity.com/course/front-end-web-developer-nanodegree--nd001).
-# feed-reader
