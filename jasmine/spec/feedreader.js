@@ -31,8 +31,8 @@ $(function () {
         /* Loops through each feed to test that URL's are not empty.*/
         it('url defined', function () {
             allFeeds.forEach(feed => {
-                expect(allFeeds).toBeDefined();
-                expect(allFeeds.length).not.toBe(0);
+                expect(feed.url).toBeDefined();
+                expect(feed.url.length).not.toBe(0);
             });
         });
 
@@ -41,7 +41,7 @@ $(function () {
             allFeeds.forEach(feed => {
                 expect(feed.name).toBeDefined();
                 expect(feed.name.length).not.toBe(0);
-            })
+            });
         });
     });
 
@@ -83,8 +83,8 @@ $(function () {
         beforeEach(done => {
             loadFeed(0, function() {
                 oldfeed = $('.feed').text();
-            loadFeed(1, function() {
-                newfeed = $('.feed').text();
+                loadFeed(1, function() {
+                    newfeed = $('.feed').text();
                 done();
             });
         });
